@@ -11,10 +11,6 @@ $font-four: 'Wisdom Script', sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    max-width: 1400px;
-}
-
 .container {
     width: 940px;
     margin: 0 auto;
@@ -32,6 +28,8 @@ body {
 .navigation {
     position: absolute;
     margin: 73px 0 0 0;
+    z-index: 1;
+    width: 100%;
 
     .menu {
         width: 480px;
@@ -60,9 +58,86 @@ body {
 
             a {
                 text-decoration: none;
-                
+                color: #fff;
             }
         }
     }
 
 }
+
+/* Splash */
+
+.splash {
+    position: relative;
+    height: 100vh;
+    background-color: #000000;
+
+    .splash-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+        .small-title {
+            color: #ffffff;
+            font-family: "$font-one";
+            font-size: 40px;
+            font-style: italic;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+
+        .big-title {
+            color: #ffffff;
+            font-family: $font-two;
+            font-size: 75px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .button-1 {
+            width: 240px;
+            height: 65px;
+            background-color: #fed136;
+            padding: 0;
+            border: 0;
+
+
+            p {
+                color: #ffffff;
+                font-family: $font-two;
+                font-size: 18px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.splash::before {
+    content: '';
+    background-image: url('https://i.postimg.cc/B6VpPjhd/Background-Image.png');
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    opacity: 1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+
+/* Services */
