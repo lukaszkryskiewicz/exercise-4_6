@@ -1,0 +1,68 @@
+/*Variables*/
+
+$font-one: 'droid-serif', serif;
+$font-two: 'Montserrat', sans-serif;
+$font-three: 'Roboto Slab', serif;
+$font-four: 'Wisdom Script', sans-serif;
+  
+
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* Navigation */
+
+.navigation {
+    position: absolute;
+    margin: 73px 0 0 0;
+
+    .menu {
+        width: 480px;
+        color: #ffffff;
+        font-family: $font-two;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 41px;
+        text-align: center;
+        text-transform: uppercase;
+
+        ul {
+            list-style-type: none;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            display: flex;
+            justify-content: space-between;
+            
+            li {
+                display: inline-block;
+                text-transform: uppercase;
+            }
+
+            a {
+                text-decoration: none;
+                
+            }
+        }
+    }
+
+}
