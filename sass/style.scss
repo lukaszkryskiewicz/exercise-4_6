@@ -23,6 +23,33 @@ $font-four: 'Wisdom Script', sans-serif;
 
 }
 
+.section-header {
+    text-align: center;
+
+    .section-title {
+        color: #222222;
+        font-family: $font-two;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 75px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+    }
+
+    .section-subtitle {
+        color: #777777;
+        font-family: $font-one;
+        font-size: 16px;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+}
+
 /* Navigation */
 
 .navigation {
@@ -81,7 +108,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
         .small-title {
             color: #ffffff;
-            font-family: "$font-one";
+            font-family: $font-one;
             font-size: 40px;
             font-style: italic;
             letter-spacing: normal;
@@ -107,9 +134,8 @@ $font-four: 'Wisdom Script', sans-serif;
             background-color: #fed136;
             padding: 0;
             border: 0;
-
-
-            p {
+            
+            span {
                 color: #ffffff;
                 font-family: $font-two;
                 font-size: 18px;
@@ -141,3 +167,40 @@ $font-four: 'Wisdom Script', sans-serif;
 
 
 /* Services */
+
+.services {
+
+    .box {
+        flex: 0 0 33.3333%;
+        text-align: center;
+
+        img {
+            padding: 12px;
+            border-radius: 50%;
+            border: 1px solid #fed136;
+        }
+
+        .box-title {
+            color: #222222;
+            font-family: $font-two;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.45px;
+            line-height: normal;
+        }
+
+        .box-text {
+            color: #777777;
+            font-family: $font-three;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: -0.35px;
+            max-width: 274px;
+        }
+    }
+}
