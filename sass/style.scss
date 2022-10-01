@@ -239,5 +239,25 @@ $font-four: 'Wisdom Script', sans-serif;
 /* Footer */
 
 .footer {
+
+    .box {
+        margin: 40px 0 0 0;
+
+        a {
+            font-size: 0px;
+            margin-right: 9px;
+
         
+            i {
+                font-size: 18px;
+                background-color: #222222;
+                color: #ffffff;
+                line-height: 41px;
+                height: 41px;
+                width: 40px;
+                border-radius: 50%;
+                background-size: 40px 41px;
+            }
+        }
+    }
 }
