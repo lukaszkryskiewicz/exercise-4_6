@@ -11,6 +11,7 @@ $font-four: 'Wisdom Script', sans-serif;
     box-sizing: border-box;
 }
 
+
 .container {
     width: 940px;
     margin: 0 auto;
@@ -25,6 +26,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
 .section-header {
     text-align: center;
+    margin: 0 0 76px 0;
 
     .section-title {
         color: #222222;
@@ -33,10 +35,11 @@ $font-four: 'Wisdom Script', sans-serif;
         font-weight: 700;
         font-style: normal;
         letter-spacing: normal;
-        line-height: 75px;
+        /*line-height: 75px;*/
         text-align: center;
         text-transform: uppercase;
         letter-spacing: -1px;
+        margin: 0 0 19px 0;
     }
 
     .section-subtitle {
@@ -189,9 +192,11 @@ $font-four: 'Wisdom Script', sans-serif;
 /* Services */
 
 .services {
+    padding: 120px 0 120px 0;
 
     .box-services {
         max-width: 274px;
+        margin: 4px 0 0 0;
 
         img {
             padding: 12px;
@@ -217,6 +222,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
 .our-portfolio {
     background-color: #f7f7f7;
+    padding: 120px 0 120px 0;
 
     .box-our-portfolio {
         background-color: #fff;
@@ -225,6 +231,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
         .box-title-portfolio {
             color: #333333;
+            margin: 29px 0 4px 0;
         }
 
         .box-text-portfolio {
@@ -232,6 +239,7 @@ $font-four: 'Wisdom Script', sans-serif;
             font-family: $font-one;
             font-style: italic;
             letter-spacing: normal;
+            margin: 0 0 27px 0;
         }
     }
 }
