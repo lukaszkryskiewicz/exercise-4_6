@@ -307,4 +307,10 @@ $font-four: 'Wisdom Script', sans-serif;
     .wrapper {
       flex-direction: column;
     }
+
+    .box-our-portfolio, .box-services {
+        margin: 0 auto !important;
+    }
+
   }
+
