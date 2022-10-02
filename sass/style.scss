@@ -217,6 +217,7 @@ $font-four: 'Wisdom Script', sans-serif;
         }        
         .box-title-services {
             color: #222222;
+            margin: 28px 0 18px 0;
         }
 
         .box-text-services {
@@ -259,7 +260,10 @@ $font-four: 'Wisdom Script', sans-serif;
 
 .footer {
 
-
+    .wrapper-footer {
+        justify-content: flex-start;
+    }
+    
     .box-footer {
         margin: 40px 0 0 0;
 
