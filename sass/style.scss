@@ -190,7 +190,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
 .services {
 
-    .box {
+    .box-services {
         max-width: 274px;
 
         img {
@@ -199,11 +199,11 @@ $font-four: 'Wisdom Script', sans-serif;
             border: 1px solid #fed136;
         }
 
-        .box-title {
+        .box-title-services {
             color: #222222;
         }
 
-        .box-text {
+        .box-text-services {
             color: #777777;
             font-family: $font-three;
             font-weight: 400;
@@ -218,16 +218,16 @@ $font-four: 'Wisdom Script', sans-serif;
 .our-portfolio {
     background-color: #f7f7f7;
 
-    .box {
+    .box-our-portfolio {
         background-color: #fff;
         max-width: 291px;
         margin: 0 0 50px 0;
 
-        .box-title {
+        .box-title-portfolio {
             color: #333333;
         }
 
-        .box-text {
+        .box-text-portfolio {
             color: #737373;
             font-family: $font-one;
             font-style: italic;
@@ -240,13 +240,13 @@ $font-four: 'Wisdom Script', sans-serif;
 
 .footer {
 
-    .box {
+
+    .box-footer {
         margin: 40px 0 0 0;
 
         a {
             font-size: 0px;
             margin-right: 9px;
-
         
             i {
                 font-size: 18px;
@@ -258,6 +258,24 @@ $font-four: 'Wisdom Script', sans-serif;
                 border-radius: 50%;
                 background-size: 40px 41px;
             }
+
+            .tw-blue:hover {
+                background-color: #00aced;
+            }
+    
+            .fb-blue:hover {
+                background-color: #3b5998;
+            }
+    
+            .pin-red:hover {
+                background-color: #cb2028;
+            }
+    
+            .g-red:hover {
+                background-color: #da2713;
+            }
         }
+
+      
     }
 }
