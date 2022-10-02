@@ -13,7 +13,7 @@ $font-four: 'Wisdom Script', sans-serif;
 
 
 .container {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -302,3 +302,9 @@ $font-four: 'Wisdom Script', sans-serif;
       
     }
 }
+@media (max-width: 800px) 
+{
+    .wrapper {
+      flex-direction: column;
+    }
+  }
