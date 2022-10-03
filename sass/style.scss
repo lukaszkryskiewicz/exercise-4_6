@@ -123,18 +123,18 @@ body {
         }
     }
 
-}
+    .nav-toggle:checked ~ .menu {
+        display: block;
+    }
+    
+    .nav-toggle {
+        display: none;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
 
-.nav-toggle:checked ~ .menu {
-    display: block;
-}
-
-.nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    display: none;
 }
 
 /* Splash */
