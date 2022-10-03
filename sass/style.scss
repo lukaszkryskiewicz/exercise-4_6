@@ -11,6 +11,9 @@ $font-four: 'Wisdom Script', sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
 .container {
     max-width: 940px;
@@ -81,8 +84,14 @@ $font-four: 'Wisdom Script', sans-serif;
     z-index: 1;
     width: 100%;
 
+    .brand {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 10px;
+    }
+
     .menu {
-        width: 480px;
+        /*width: 480px;*/
         color: #ffffff;
         font-family: $font-two;
         font-size: 14px;
@@ -104,6 +113,7 @@ $font-four: 'Wisdom Script', sans-serif;
             li {
                 display: inline-block;
                 text-transform: uppercase;
+                padding: 0 10px;
             }
 
             a {
@@ -113,6 +123,18 @@ $font-four: 'Wisdom Script', sans-serif;
         }
     }
 
+}
+
+.nav-toggle:checked ~ .menu {
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
 }
 
 /* Splash */
@@ -309,8 +331,35 @@ $font-four: 'Wisdom Script', sans-serif;
     }
 
     .box-our-portfolio, .box-services {
-        margin: 0 auto !important;
+        margin: 10px auto 10px auto !important;
     }
 
+    .menu {
+        display: none;
+    }
+
+    ul {
+        flex-direction: column;
+        padding: 0;
+        
+        li {
+            padding: 10px !important;
+            background-color: #777777;
+            
+        }
+    }
+
+    .nav-toggle-label {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .big-title {
+        display: none;
+    }
   }
 
